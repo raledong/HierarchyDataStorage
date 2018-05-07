@@ -78,7 +78,7 @@ public class ModifiedPreorderTreeService implements TreeService {
      * @param lftValue
      * @return rgtValue
      */
-    public CategoryNode labelCategory(Category category, int lftValue, List<CategoryNode> nodes){
+    private CategoryNode labelCategory(Category category, int lftValue, List<CategoryNode> nodes){
         CategoryNode categoryNode = new CategoryNode();
         nodes.add(categoryNode);
         categoryNode.setName(category.getName());
